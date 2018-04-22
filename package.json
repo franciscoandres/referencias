@@ -1,0 +1,20 @@
+{
+  "name": "references",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://franciscogo.github.io/referencias",
+  "dependencies": {
+    "pdfmake": "^0.1.36",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2",
+    "react-number-format": "^3.3.3",
+    "react-scripts": "1.1.4",
+    "rebass": "^2.0.0-0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
