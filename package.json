@@ -2,7 +2,6 @@
   "name": "references",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://franciscogo.github.io/referencias",
   "dependencies": {
     "pdfmake": "^0.1.36",
     "react": "^16.3.2",
