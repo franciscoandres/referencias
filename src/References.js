@@ -57,7 +57,7 @@ class References extends Component {
           style: ['fontBold', 'marginBottomMD']
         },
         {
-          text: `Quien suscribe ${state.fullName}, titular de la C.I ${state.identifier} domiciliado en ${state.fullAddress}. Certifico que conozco de vista y trato desde hace ${state.totalYears} ${greaterThanOneYear} a el Sr./a ${state.yourName}, venezolano mayor de edad, portador de la C.I ${state.yourIdentifier}, quien ha demostrado ser una persona honesta, responsable y cumplidora de sus obligaciones.`,
+          text: `Quien suscribe ${state.fullName}, titular de la C.I ${state.identifier} domiciliado en ${state.fullAddress.trim()}. Certifico que conozco de vista y trato desde hace ${state.totalYears} ${greaterThanOneYear} a el Sr./a ${state.yourName}, venezolano mayor de edad, portador de la C.I ${state.yourIdentifier}, quien ha demostrado ser una persona honesta, responsable y cumplidora de sus obligaciones.`,
           style: ['justify', 'marginBottomMD']
         },
         {
